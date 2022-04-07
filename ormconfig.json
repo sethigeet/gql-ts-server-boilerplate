@@ -1,0 +1,29 @@
+[
+  {
+    "name": "development",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "gql-ts-server-boilerplate",
+    "synchronize": true,
+    "logging": true,
+    "entities": ["src/**/*Entity.ts"],
+    "migrations": ["src/migrations/**/*.ts"]
+  },
+  {
+    "name": "test",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "postgres",
+    "database": "gql-ts-server-boilerplate-test",
+    "synchronize": true,
+    "dropSchema": true,
+    "logging": false,
+    "entities": ["src/**/*Entity.ts"],
+    "migrations": ["src/migrations/**/*.ts"]
+  }
+]

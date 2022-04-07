@@ -1,0 +1,1 @@
+export { LogoutResolver } from "./logoutResolver";

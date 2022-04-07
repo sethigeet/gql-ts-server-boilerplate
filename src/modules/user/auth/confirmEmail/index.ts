@@ -1,0 +1,1 @@
+export { ConfirmEmailResolver } from "./confirmEmailResolver";

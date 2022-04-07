@@ -1,0 +1,1 @@
+export { ResetPasswordResolver } from "./resetPasswordResolver";
